@@ -1,6 +1,6 @@
 import type { OverpassJson } from "../src/overpass-ts";
 import * as nodeStream from "stream";
-import overpass from "../src/node";
+import { overpass } from "../src/overpass-ts";
 import * as assert from "assert";
 
 describe("API Queries", function () {

@@ -21,7 +21,7 @@ export default [
     output: {
       name: "overpass-ts",
       file: "dist/overpass-ts.js",
-      format: "cjs"
+      format: "cjs",
     },
     plugins: [typescript()],
   },
@@ -64,7 +64,7 @@ export default [
       nodeResolve({ browser: true }),
       typescript(),
       commonjs(),
-      terser()
+      terser(),
     ],
   },
 ];
