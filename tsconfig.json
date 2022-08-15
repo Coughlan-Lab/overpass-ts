@@ -5,7 +5,9 @@
     }
   },
   "compilerOptions": {
-    "target": "esnext",
+    "target": "ESNEXT",
+    "module": "ES2020",
+    "lib": ["DOM", "ES2020"],
     "strict": true,
     "declaration": true,
     "outDir": "dist/"

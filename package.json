@@ -1,6 +1,6 @@
 {
   "name": "overpass-ts",
-  "version": "4.2.4",
+  "version": "4.2.5",
   "description": "",
   "main": "dist/overpass-ts.js",
   "module": "dist/overpass-ts.module.js",
@@ -31,7 +31,7 @@
     "rollup-plugin-terser": "^7.0.2",
     "ts-node": "^9.1.1",
     "tslib": "^2.1.0",
-    "typescript": "^4.2.2"
+    "typescript": "^4.2.4"
   },
   "mocha": {
     "extension": [
