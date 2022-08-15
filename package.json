@@ -11,6 +11,7 @@
   ],
   "scripts": {
     "build": "rm -rf dist/* && rollup -c && cd src && tsc -d --emitDeclarationOnly --declarationDir ../dist/",
+    "prepublish": "npm run build",
     "download-examples": "node test/download-examples.js",
     "test": "mocha --timeout 360000 test/test-*.ts"
   },
