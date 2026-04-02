@@ -7,7 +7,7 @@ import { humanReadableBytes, matchAll, sleep } from "./utils";
 export * from "./types";
 
 const defaultOpts: OverpassOptions = {
-  endpoint: "//overpass-api.de/api/interpreter",
+  endpoint: "https://overpass-api.de/api/interpreter",
   rateLimitRetries: 2,
   rateLimitPause: 2000,
   verbose: false,

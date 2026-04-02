@@ -1,6 +1,6 @@
 {
-  "name": "@Coughlan-Lab/overpass-ts",
-  "version": "4.2.5",
+  "name": "@coughlan-lab/overpass-ts",
+  "version": "4.2.6",
   "description": "",
   "main": "dist/overpass-ts.js",
   "module": "dist/overpass-ts.module.js",

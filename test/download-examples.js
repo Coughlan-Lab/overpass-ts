@@ -40,7 +40,7 @@ const overpassToDisk = async function (
 
   console.log(`sending: ${query}`);
 
-  return fetch("//overpass-api.de/api/interpreter", {
+  return fetch("https://overpass-api.de/api/interpreter", {
     method: "POST",
     mode: "cors",
     redirect: "follow",

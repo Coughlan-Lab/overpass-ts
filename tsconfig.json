@@ -7,10 +7,12 @@
   "compilerOptions": {
     "target": "ESNEXT",
     "module": "ES2020",
+    "moduleResolution": "node",
     "lib": ["DOM", "ES2020"],
     "strict": true,
     "declaration": true,
-    "outDir": "dist/"
+    "outDir": "dist/",
+    "skipLibCheck": true
   },
   "exclude": ["node_modules", "bin", "dist", "test"]
 }
