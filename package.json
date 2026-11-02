@@ -1,5 +1,5 @@
 {
-  "name": "@coughlan-lab/overpass-ts",
+  "name": "@xrnavigation/overpass-ts",
   "version": "4.2.7",
   "description": "",
   "main": "dist/overpass-ts.js",
